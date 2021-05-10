@@ -25,7 +25,6 @@ line-height: 50px;
     text-align:center;
     top: 0;
     float: right;
-
 }
 .navlinklist{
     background-color: gainsboro;
@@ -41,15 +40,13 @@ line-height: 50px;
     display: inline-block;
 }
 
-.navLinkList li a {
+.navLinkList li a:hover {
     color: powderblue;
     text-decoration: purple;
     font-size: 20px;
     padding: 10px;
 
-
 }
-color:
 
 
 .navlinklist {
@@ -72,54 +69,70 @@ background-color: cornsilk;
 .mainBody{
 margin-top: 60px;
 width: 100;
+}
 
-.resturant photo
+.restaurantPhoto {
 position: relative;
 display: inline-block;
 width: 20%;
 
-.resturtantphot0o image-rendering: 20px;
+}
+.restaurantphoto img{
 width: 100%;
 
-.EnjoyQuote
+}
+
+.EnjoyQuote{
 position: absolute;
 top: 10px;
 left: 15px;
-font: size 26px;
+font-size: 26px;
 color: green
-width: 60;
-font-family: 'Itim', cursive;
+width: 60%;
+font-family:'Yellowtail', cursive;
 }
+
 
 .recentPost {
 position: relative;
 display: block;
 width: 60%;
 background-color: khaki;
-vertical-align: middle;
 font-size: 20px;
+}
 
-
-.recentPosts p{
-    margin: 30px 0;
+.recentPosts p {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    background-color: bisque;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.recentPost h1 {
+  margin-top: 0px;
 
 }
 
 .blogPostList{
-    position: relative;
-    display: inline;
-    width: 15%;
+    position:absolute;
+    display:inline-flex;
+    width: 100%;
+    background-color: brown;
     vertical-align: middle;
-    font-size: 18px;
+    font-size: 20px;
     border-color: 2px lightslategrey;
-    padding-top: 10px;
+    padding-left: 2px;
+    height: 80%;
 
 
 }
 footer{
     width: 100%;
-    text-align: center;
+    text-align:right;
     background-color: peachpuff;
+    font-weight:  bolder;
+    margin-top: 50px;
     padding: 10px;
 }
 
