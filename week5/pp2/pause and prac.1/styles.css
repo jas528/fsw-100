@@ -1,0 +1,170 @@
+header
+   
+    .box {
+    min-height: 50px;
+    width: 100%;
+    margin-bottom: 768px;
+  
+}
+    .red {
+       
+        background-color: firebrick;
+    }
+    
+    .gridcontainer {
+    display:grid 50px;
+    grid-template-columns: repeat(4,25%);
+    
+}
+.gridcontainer div{
+font-size: 55px;
+padding: 20px;
+
+}
+
+ .box {
+    min-height: 50px;
+    width: 100%;
+    margin-bottom: 768px;
+  
+}
+    
+    .box{
+ min-height: 50px;   
+width: 100%;
+margin-bottom: 1px;
+}
+
+.blue {
+    
+    background-color: blue;
+    }
+
+    .gridcontainer div{
+    display: grid 50px;
+    grid-template-columns: repeat(2,25%);
+    
+    
+     background-color: darkolivegreen;   
+    
+    }
+    .box {
+        min-height: 50px;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+
+    .orange {
+     background-color: orange;   
+    }
+    .gridcontainer {
+        display:grid 50px;
+        grid-template-columns: repeat(4,25%);
+    }
+    .gridcontainer {
+        display: grid;
+        gap: 1px;
+    grid-template-columns: 1fr;
+    }
+    
+    @media screen and (max-width:400px) {
+    .gridcontainer{
+        grid-template-columns:repeat(12,1fr);
+     gap: 5px;
+     grid-template-rows: repeat(5,1fr);
+     
+}
+#box1{
+grid-column-start:1 ;   
+grid-column-end: 13;
+
+}
+
+#box2{
+grid-column-start: 1; 
+grid-column-end: 7;
+
+
+}
+#box3{
+   grid-column-start: 7; 
+grid-column-end: 13 ;
+
+}
+
+#box4{
+    grid-column: 1/5;
+}
+
+#box5{
+grid-column: 5/9;
+
+}
+#box6 {
+    grid-column: 9/13;
+
+}
+
+.schedule{
+    width: 20%;
+    }
+   
+    .gridcontainer {
+            grid-template-columns: repeat(12,1fr);
+            gap: 5px;
+        }
+    #box1 {
+    grid-column-start: 1;
+    grid-column-end: 7
+    }
+    
+    #box2 {
+    grid-column-start: 7;
+    grid-column-end: 13
+    
+    
+    }
+    
+    #box3 {
+    grid-column-start: 1/5;
+    }
+        
+    #box4 {
+     grid-column-start: 5/9;
+            
+        
+    }
+    
+        
+
+
+.box > h1 {
+    background-color: blue;
+}
+ .main{
+     width: auto;
+     margin-left: 10px;
+ }
+
+.box {width: 100%;
+    margin: 10px;
+    min-height: 100px;
+    padding: 10px;display: inline;
+}
+.schedule{
+    background-color: tomato;
+}
+
+.main{
+    background-color: blue;
+    color: darkturquoise;
+
+    border: 2px dashed green;
+}
+.box > h1 {
+    background-color: brown;
+}
+footer{
+    width: 100%;
+
