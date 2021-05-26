@@ -1,65 +1,50 @@
-
 .gridcontainer {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-gap:10px;
+    display: grid;
+    grid-template-columns: repeat (12 fr) ;
+    /* grid-template-colums:100%;*/ 
+    grid-auto-rows: minmax(100px,auto);
+    /*max-width: 960px; */
+    grid-gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+
+
 
 }
     .boxred{
+        grid-column: 1/2;
        background-color:red;
-        text-align-last: center;
-        font-size: 50;
-        line-height: 40px;
-        width: 100%;
-        padding-bottom: 40px;
-        padding-top: 40px ;
-        grid-column: span 4;
-
+        
     }
     
 
 .boxblue{
-background-color:blue;
-font-size: 20px;
-width: 100%;
-height: 100%;
-grid-column: span 2;
-grid-row: span 2 ;
-}
+    background: blue; 
+    grid-column: 2/3; 
+    }
+
+
+    
 
 .green {
+    grid-column: 2/0;
     background-color: green;
-    font-size: 20px;
-    border: 3px solid#73AD21;
-    width: 100%;
-    padding-bottom: 40px;
-    padding-top: 40px ;
-    
+   
 }
 
-.boxviolet{
-    background-color:violet;
-     text-align-last: center;
-     font-size: 50;
-     line-height: 40px;
-     width: 100%;
-     padding-bottom: 40px;
-    padding-top: 40px ;
-    grid-column: span 1;
-
+.boxpurple{
+    grid-column: 2/2;
+    background-color:purple;
+    
+   
+   
  }
  .boxyellow{
+     grid-column: 3/1;
     background-color:yellow;
-     text-align-last: center;
-     font-size: 50;
-     line-height: 40px;
-     width: 100%;
-     padding-bottom: 40px;
-    padding-top: 40px ;
-    grid-column: span 1;
-
+     
 }
-/* {@media screen and (mix-width:768 px) {
+/* {@media screen and (min-width:768 px) {
 .gridcontainer{
     grid-template-columns: minmax(150px auto )auto;
 }
