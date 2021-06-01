@@ -1,0 +1,31 @@
+.headline{
+    color: greenyellow;
+
+}
+h1
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+
+p{
+ line-height: 25px; 
+  
+}
+
+a{
+    text-decoration: black;
+
+}
+a:hover{
+    text-decoration: underline ;
+
+}
+.upper{
+    text-transform: uppercase;
+}
+
+img{
+    float: left;
+    padding-right: 60px;
+}
